@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+## COVID19-LATAM Instruction manual
 
-You can use the [editor on GitHub](https://github.com/WizardSantix/DevDataProd-CourseProject/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Access
+To acces the app please click the following link: https://wizardsantix.shinyapps.io/SARS-COV2-LATAM/
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Internal function
+The app automatically gets a database for the COVID19 information from the COVID19 Data Hub (https://covid19datahub.io) using the package COVID19, then displays a graph of the number of cases for different selectable variables in time. And a graphic for the information on the current date.
 
-### Markdown
+## User functions
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- The user can select a range of dates in the Date Range field, just select the start date and end date from the calendars shown when clicking on each field. **Selecting a start date higher than the end date will cause the system to display an error, please select a non-negative interval timeframe** 
 
-```markdown
-Syntax highlighted code block
+- Click on the select boxes to choose which countries you want to display in the graph, this can help you compare between different countries.
 
-# Header 1
-## Header 2
-### Header 3
+- Select the variable that you want to analyze from the radio buttons (Confirmed Cases, Tested Cases, Death Cases, and Recovered Cases)
 
-- Bulleted
-- List
+- Both of the plots can be zoomed in and they display the value for each point by mousing over them.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/WizardSantix/DevDataProd-CourseProject/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The graphs will show information according to the selected inputs.
