@@ -1,7 +1,9 @@
-## COVID19-LATAM Instruction manual
+## SARS-COV2-LATAM Instruction manual
 
 ## Access
 To acces the app please click the following link: https://wizardsantix.shinyapps.io/SARS-COV2-LATAM/
+
+The SARS-COV2 folder in this repository contains the code for the shiny app https://github.com/WizardSantix/DevDataProd-CourseProject/tree/master/SARS-COV2-LATAM
 
 ## Internal function
 The app automatically gets a database for the COVID19 information from the COVID19 Data Hub (https://covid19datahub.io) using the package COVID19, then displays a graph of the number of cases for different selectable variables in time. And a graphic for the information on the current date.
