@@ -1,0 +1,12 @@
+name: SARS-COV2-LATAM
+title: SARS-COV2-LATAM
+username:
+account: wizardsantix
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2206270
+bundleId: 3082693
+url: https://wizardsantix.shinyapps.io/SARS-COV2-LATAM/
+when: 1588185816.00723
+asMultiple: FALSE
+asStatic: FALSE
