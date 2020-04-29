@@ -20,5 +20,5 @@ The app automatically gets a database for the COVID19 information from the COVID
 
 The graphs will show information according to the selected inputs.
 
-![Image](/AppCOVID.png)
+![Image](/AppCOVID.PNG)
 
