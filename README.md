@@ -19,3 +19,6 @@ The app automatically gets a database for the COVID19 information from the COVID
 - Both of the plots can be zoomed in and they display the value for each point by mousing over them.
 
 The graphs will show information according to the selected inputs.
+
+![Image](/AppCOVID.png)
+
